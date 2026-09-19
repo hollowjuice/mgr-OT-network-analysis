@@ -1,5 +1,6 @@
 from .merge_data import MergeData
-from .extract_features1 import ExtractFeatures
+from .extract_features import ExtractFeatures
+from .stat_analysis import StatisticalAnalyzer
 
-__all__ = ["MergeData", "ExtractFeatures"]
+__all__ = ["MergeData", "ExtractFeatures", "StatisticalAnalyzer"]
 
